@@ -985,3 +985,17 @@ nav {
 .Likess {
   cursor: pointer;
 }
+.Button {
+  background-color: #000;
+  color: white;
+  position: relative;
+  text-align: center;
+  border: 2px solid black;
+  width: 25%;
+  margin: auto;
+  font-weight: bolder;
+  font-size: 18px;
+  cursor: pointer;
+  display: block;
+  padding-right: 20px;
+}

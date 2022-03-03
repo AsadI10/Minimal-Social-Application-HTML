@@ -9,7 +9,7 @@ function UserLog(){
     location.href = "userlogin.html";
 }
 function Adminlog(){
-    location.href = "adminlogin.html";
+    location.href = "adminlog.html";
 }
 function Let(){
     location.href = "userlogin.html";
@@ -32,3 +32,6 @@ function AdminLogoff(){
 function Approvepo(){
     location.href = "approvepost.html";
 }
+// function LogOnAdmin(){
+//     location.href = {admin}
+// }
