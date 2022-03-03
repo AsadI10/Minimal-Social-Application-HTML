@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="css/mobile.css">
+    <link  rel="stylesheet" media="only screen and (min-width:720px)" href="css/desktop.css"/>
+</head>
+<body class="bodyreg">
+    <div id="container">
+        <div class="title">User Registration</div>
+        <div class="content">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                    <label for="yourName">First Name</label>
+                    <input type="Name" placeholder="Enter your first name" required>
+                    </div>
+                <div class="input-box">
+                    <label for="yourName">Last Name</label>
+                    <input type="Name" placeholder="Enter your Last name" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-box">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter password" required id="myPassword">
+                </div>
+                <div class="input-box">
+                    <label>Repeat Password</label>
+                    <input type="Password" placeholder="Repeat password" required>
+                </div>
+            </div>
+        <div class="button">
+            <button class="bttn" onclick="Regist()">Register</button>
+        </div>
+        <div class="login-us">Already Registered <a class="hypelogin" href="userlogin.html">User Login Here</a></div>
+        <div class="already-user"><a class="already-ad" href="adminlogin.html" target="_blank">Admin Login</a></div>
+    </form>
+        </div>
+        <footer>
+            <p class="copy"> &copy; <script>document.write(new Date().getFullYear())</script> SocialApp</p>
+        </footer>
+    </div>
+    <script src="JS/main.js"></script>
+</body>
+</html>

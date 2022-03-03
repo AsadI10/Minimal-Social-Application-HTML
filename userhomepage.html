@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>SocialApp</title>
+    <link rel="stylesheet" href="css/mobile.css">
+    <link  rel="stylesheet" media="only screen and (min-width:720px)" href="css/desktop.css"/>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <h1 class="logo">SocialApp</h1>
+            <ul>
+                <li><img src="imagesHTML-Icons/notification.png" alt="notification"></li>
+                <li><img src="imagesHTML-Icons/video.png" alt="notification"></li>
+                <button class="Log-off" onclick="LogOff()">Log Off</button>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="imagesHTML-Icons/search.png" alt="Search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="user-icon online">
+                <img src="imagesHTML-Icons/profile-pic.png" onclick="Userclick()" alt="Profile">
+            </div>
+        </div>
+        <!---------------------------- setting-menu ---------------------->
+        <!-- <div class="setting-menu">
+            <div class="user-profilee">
+                <img src="imagesHTML-Icons/profile-pic.png" alt="">
+                <div>
+                    <p>Jack Kimpson</p>
+                   <a href="#">See your Profile</a>
+                </div>
+            </div>
+        </div> -->
+    </nav>
+    <div class="CONtainer">
+        <div class="left-sidebar">
+            <div class="link">
+                <a href="#"><img src="imagesHTML-Icons/news.png" alt="News">Latest News</a>
+                <a href="#"><img src="imagesHTML-Icons/friends.png" alt="News">Friends</a>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="imagesHTML-Icons/upload.png" alt="">
+                    <p>Your Story</p>
+                </div>
+                <div class="story story2">
+                    <img class="look" src="imagesHTML-Icons/member-1.png" alt="">
+                    <p>Martha</p>
+                </div>
+                <div class="story story3">
+                    <img class="look" src="imagesHTML-Icons/member-2.png" alt="">
+                    <p>Luca</p>
+                </div>
+                <div class="story story4">
+                    <img class="look" src="imagesHTML-Icons/member-3.png" alt="">
+                    <p>Sarah</p>
+                </div>
+                <div class="story story5">
+                    <img class="look" src="imagesHTML-Icons/member-4.png" alt="">
+                    <p>Jake</p>
+                </div>
+            </div>
+
+
+            <div class="write-post-container">
+                <div class="user-profilee">
+                    <img src="imagesHTML-Icons/profile-pic.png" alt="">
+                    <div>
+                        <p>Jack Kimpson</p>
+                        <small>Public <i class="fa fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your Mind?"></textarea>
+                    <!-- <div class="add-post-link">
+                        <a href="#"><img src="imagesHTML-Icons/live-video.png" alt="Video">Live Video</a>
+                        <a href="#"><img src="imagesHTML-Icons/photo.png" alt="Video">Photo</a>
+                    </div>
+                    <button class="BUTTON">Post</button> -->
+                    <form action="/action_page.php">
+                        <input type="file" id="myFile" name="filename">
+                        <input type="submit">
+                      </form>
+                </div>
+            </div>
+
+            <div class="post-conta">
+                <div class="post-row">
+                    <div class="user-profilee">
+                        <img src="imagesHTML-Icons/profile-pic.png" alt="">
+                        <div>
+                            <p>Jack Kimpson</p>
+                            <!-- <span>January 01 2021, 12:10 PM</span> -->
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Looking a bit too serious there</p>
+                <img src="imagesHTML-Icons/feed-image-1.png" alt="Feed" class="post-image">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <!-- <div><img src="imagesHTML-Icons/like-blue.png" alt=""> 150</div>
+                        <div><img src="imagesHTML-Icons/comments.png" alt=""> 20</div>
+                        <div><img src="imagesHTML-Icons/share.png" alt=""> 5</div> -->
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="imagesHTML-Icons/profile-pic.png" alt=""><i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <!--------------------------- 2nd post-------------- -->
+            <div class="post-conta">
+                <div class="post-row">
+                    <div class="user-profilee">
+                        <img src="imagesHTML-Icons/profile-pic.png" alt="">
+                        <div>
+                            <p>Jack Kimpson</p>
+                            <span>January 10 2021, 13:20</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Such an amazing day out with the friends. Loved IT!!!</p>
+                <img src="imagesHTML-Icons/feed-image-2.png" alt="Feed" class="post-image">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="imagesHTML-Icons/like-blue.png" alt=""> 250</div>
+                        <div><img src="imagesHTML-Icons/comments.png" alt=""> 50</div>
+                        <div><img src="imagesHTML-Icons/share.png" alt=""> 12</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="imagesHTML-Icons/profile-pic.png" alt=""><i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right-sidebar">
+            <div class="TITLE">
+                <!-- <h4>Events</h4>
+                <a href="#">See all</a>
+                <div class="event">
+                    <div class="left-event">
+                        <h3>18</h3>
+                        <span>March</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Software Engineer</h4>
+                        <p>Silicone Valley</p>
+                        <a href="#">More Info</a>
+                    </div> -->
+                    <div class="sidebar-title">
+                        <h4>Converstaions</h4>
+                        <a class="Name" href="#">Hide Chat</a>
+                    </div>
+                    <div class="online-list">
+                        <div class="user-icon">
+                            <img class="image-user" src="imagesHTML-Icons/member-1.png" alt="Like">
+                        </div>
+                        <p class="Online-user">Martha Hudson</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="JS/main.js"></script>
+</body>
+</html>

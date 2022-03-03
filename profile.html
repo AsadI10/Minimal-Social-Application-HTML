@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="css/mobile.css">
+    <link  rel="stylesheet" media="only screen and (min-width:720px)" href="css/desktop.css"/>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <h1 class="logo">SocialApp</h1>
+            <ul>
+                <li><img src="imagesHTML-Icons/notification.png" alt="notification"></li>
+                <li><img src="imagesHTML-Icons/video.png" alt="notification"></li>
+                <button class="Log-off" onclick="LogOff()">Log Off</button>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="imagesHTML-Icons/search.png" alt="Search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="user-icon online">
+                <img src="imagesHTML-Icons/profile-pic.png" alt="Profile">
+            </div>
+        </div>
+        <!---------------------------- setting-menu ---------------------->
+        <!-- <div class="setting-menu">
+            <div class="user-profilee">
+                <img src="imagesHTML-Icons/profile-pic.png" alt="">
+                <div>
+                    <p>Jack Kimpson</p>
+                   <a href="#">See your Profile</a>
+                </div>
+            </div>
+        </div> -->
+    </nav>
+
+    <!-- -------profile page ---------------------------------->
+    <div class="profile-container">
+        <img src="imagesHTML-Icons/cover.png" alt="Cover" class="cover-img">
+        <div class="profile-details">
+            <div class="profile-detail-left">
+                <div class="profile-detail-row">
+                    <img src="imagesHTML-Icons/profile-pic.png" alt="" class="Prof-img">
+                    <div>
+                        <h3>Jack Kimpson</h3>
+                        <p>200 Friends - 120 Mutual</p>
+                        <img class="Random" src="imagesHTML-Icons/member-1.png" alt="">
+                        <img class="Random" src="imagesHTML-Icons/member-2.png" alt="">
+                        <img class="Random" src="imagesHTML-Icons/member-3.png" alt="">
+                        <img class="Random" src="imagesHTML-Icons/member-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="profile-detail-right">
+                <button class="btn" type="button"> <img src="imagesHTML-Icons/add-friends.png" alt=""> Friends</button>
+                <button class="but" type="button"> <img src="imagesHTML-Icons/message.png" alt=""> Message</button>
+            </div>
+        </div>
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="text-int">Believe in yourself and you can do anything <img src="imagesHTML-Icons/feeling.png" alt=""></p> <hr>
+                    <ul>
+                        <li> <img class="proficon" src="imagesHTML-Icons/profile-job.png" alt=""> CEO at MetaVerse</li>
+                        <li> <img class="proficon" src="imagesHTML-Icons/profile-study.png" alt=""> Studied at Harvard University</li>
+                        <li> <img class="proficon" src="imagesHTML-Icons/profile-home.png" alt=""> Lives In California</li>
+                    </ul>
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="imagesHTML-Icons/photo1.png" alt=""></div>
+                        <div><img src="imagesHTML-Icons/photo2.png" alt=""></div>
+                        <div><img src="imagesHTML-Icons/photo3.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <p class="friends">250 (120 mutual)</p>
+                    <div class="photo-box">
+                        <div><img class="Slide" src="imagesHTML-Icons/member-1.png" alt=""></div>
+                        <div><img class="Slide" src="imagesHTML-Icons/member-2.png" alt=""></div>
+                        <div><img class="Slide" src="imagesHTML-Icons/member-3.png" alt=""></div>
+                        <div><img class="Slide" src="imagesHTML-Icons/member-4.png" alt=""></div>
+                        <div><img class="Slide" src="imagesHTML-Icons/member-5.png" alt=""></div>
+                        <div><img class="Slide" src="imagesHTML-Icons/member-6.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profilee">
+                        <img src="imagesHTML-Icons/profile-pic.png" alt="">
+                        <div>
+                            <p>Jack Kimpson</p>
+                            <small>Public <i class="fa fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your Mind?"></textarea>
+                        <!-- <div class="add-post-link">
+                            <a href="#"><img src="imagesHTML-Icons/live-video.png" alt="Video">Live Video</a>
+                            <a href="#"><img src="imagesHTML-Icons/photo.png" alt="Video">Photo</a>
+                        </div> -->
+                        <form action="/action_page.php">
+                            <input type="file" id="myFile" name="filename">
+                            <input type="submit">
+                          </form>
+                    </div>
+                </div>
+                <div class="post-conta">
+                    <div class="post-row">
+                        <div class="user-profilee">
+                            <img src="imagesHTML-Icons/profile-pic.png" alt="">
+                            <div>
+                                <p>Jack Kimpson</p>
+                                <span>January 01 2021, 12:10 PM</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Looking a bit too serious there</p>
+                    <img src="imagesHTML-Icons/feed-image-1.png" alt="Feed" class="post-image">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="imagesHTML-Icons/like-blue.png" alt=""> 150</div>
+                            <div><img src="imagesHTML-Icons/comments.png" alt=""> 20</div>
+                            <div><img src="imagesHTML-Icons/share.png" alt=""> 5</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="imagesHTML-Icons/profile-pic.png" alt=""><i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-conta">
+                    <div class="post-row">
+                        <div class="user-profilee">
+                            <img src="imagesHTML-Icons/profile-pic.png" alt="">
+                            <div>
+                                <p>Jack Kimpson</p>
+                                <span>January 10 2021, 13:20</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Such an amazing day out with the friends. Loved IT!!!</p>
+                    <img src="imagesHTML-Icons/feed-image-2.png" alt="Feed" class="post-image">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="imagesHTML-Icons/like-blue.png" alt=""> 250</div>
+                            <div><img src="imagesHTML-Icons/comments.png" alt=""> 50</div>
+                            <div><img src="imagesHTML-Icons/share.png" alt=""> 12</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="imagesHTML-Icons/profile-pic.png" alt=""><i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/main.js"></script>
+</body>
+</html>
