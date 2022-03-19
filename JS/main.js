@@ -1,10 +1,10 @@
 function User(){
     location.href = "registration.html";
 }
-function Regist(){
-    location.href = "registertext.html"
-    // {if (Regist("click ok to continue")) window.location = "registertext.html";}
-}
+// function Regist(){
+//     location.href = "registertext.html"
+//     // {if (Regist("click ok to continue")) window.location = "registertext.html";}
+// }
 function UserLog(){
     location.href = "userlogin.html";
 }

@@ -999,3 +999,21 @@ nav {
   display: block;
   padding-right: 20px;
 }
+.bot {
+  background-color: rgb(148, 3, 3);
+  color: white;
+  position: relative;
+  text-align: center;
+  border: 2px solid black;
+  width: 20%;
+  margin: auto;
+  font-weight: bolder;
+  font-size: 18px;
+  cursor: pointer;
+  display: block;
+  padding-right: 20px;
+  height: 30px;
+}
+.bot:hover {
+  background-color: #f74646;
+}
