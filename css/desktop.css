@@ -1028,13 +1028,13 @@ nav {
 .bot:hover {
   background-color: #f74646;
 }
-.Confirmation {
+.cool {
   background-color: #000;
   color: white;
   position: relative;
   text-align: center;
-  border: 2px solid black;
-  width: 25%;
+  border: 3px solid black;
+  width: 30%;
   margin: auto;
   font-weight: bolder;
   font-size: 25px;
