@@ -809,7 +809,18 @@ nav {
   background: #e4e6eb;
   color: #000;
 }
-
+.btn2 {
+  background-color: grey;
+  position: absolute;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  width: 10%;
+  height: 7%;
+  margin-left: -380px;
+}
 /*---------------- profile info ----------------*/
 .profile-info {
   display: flex;
@@ -1016,4 +1027,16 @@ nav {
 }
 .bot:hover {
   background-color: #f74646;
+}
+.Confirmation {
+  background-color: #000;
+  color: white;
+  position: relative;
+  text-align: center;
+  border: 2px solid black;
+  width: 25%;
+  margin: auto;
+  font-weight: bolder;
+  font-size: 25px;
+  cursor: pointer;
 }

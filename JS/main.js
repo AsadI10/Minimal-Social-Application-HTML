@@ -1,3 +1,6 @@
+function con(){
+    location.href = "editprofile.html"
+}
 function User(){
     location.href = "registration.html";
 }
